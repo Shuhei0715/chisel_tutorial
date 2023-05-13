@@ -18,7 +18,7 @@ class EX1 extends Module {
 
   val blkReg = RegInit(0.U(1.W))
 
-  blkReg := io.sw
+  blkReg := io.sw(0)
   io.led := blkReg
 
 }

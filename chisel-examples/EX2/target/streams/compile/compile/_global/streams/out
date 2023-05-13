@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/shuhei/chisel_tutorial/chisel-examples/EX2/src/main/scala/EX1.scala:23:13: not found: value and[0m
+[0m[[0m[31merror[0m] [0m[0m  io.led := and //blkReg[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
