@@ -9,8 +9,57 @@
 
 import chisel3._
 import chisel3.util._
+//import chisel3.iotesters._
 //import chisel3.Driver
 
+class CompA extends Module { 
+  val io = IO(new Bundle { 
+    val a = Input(UInt(8.W)) 
+    val b = Input(UInt(8.W)) 
+    val x = Output(UInt(8.W)) 
+    val y = Output(UInt(8.W))
+  })
+
+	io.x := io.a
+	io.y := io.b
+}
+
+class CompB extends Module { 
+  val io = IO(new Bundle { 
+    val in1 = Input(UInt(8.W)) 
+    val in2 = Input(UInt(8.W)) 
+    val out = Output(UInt(8.W)) 
+  })
+
+	io.out := io.in1
+  
+}
+
+class EX3 extends Module { 
+  val io = IO(new Bundle { 
+    val in_a = Input(UInt(8.W)) 
+    val in_b = Input(UInt(8.W)) 
+    val in_c = Input(UInt(8.W)) 
+    val out_x = Output(UInt(8.W)) 
+    val out_y = Output(UInt(8.W)) 
+  })
+
+  // create components A and B 
+  val compA = Module(new CompA()) 
+  val compB = Module(new CompB())
+
+  // connect A 
+  compA.io.a := io.in_a 
+  compA.io.b := io.in_b 
+  io.out_x := compA.io.x 
+  // connect B 
+  compB.io.in1 := compA.io.y 
+  compB.io.in2 := io.in_c 
+  io.out_y := compB.io.out
+}
+
+
+/*
 class EX3 extends Module {
   val io = IO(new Bundle {
     val sw = Input(UInt(10.W))
@@ -106,11 +155,13 @@ class One_4IN_MUX extends Module {
 	io.m := One_2IN_MUX1.io.m
 }
 
+*/
+
 /**
  * An object extending App to generate the Verilog code.
  */
-//object EX2_6 extends App {
-//  chisel3.Driver.execute(Array[String](), () => new EX2())
+//object EX3 extends App {
+//  chisel3.Driver.execute(Array[String](), () => new EX3())
 //}
 
 object EX3 extends App {

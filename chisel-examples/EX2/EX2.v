@@ -7,13 +7,13 @@ module EX2(
 `ifdef RANDOMIZE_REG_INIT
   reg [31:0] _RAND_0;
 `endif // RANDOMIZE_REG_INIT
-  reg  blkReg; // @[EX1.scala 19:23]
-  assign io_led = blkReg; // @[EX1.scala 23:10]
+  reg  blkReg; // @[EX2.scala 19:23]
+  assign io_led = blkReg; // @[EX2.scala 23:10]
   always @(posedge clock) begin
-    if (reset) begin // @[EX1.scala 19:23]
-      blkReg <= 1'h0; // @[EX1.scala 19:23]
+    if (reset) begin // @[EX2.scala 19:23]
+      blkReg <= 1'h0; // @[EX2.scala 19:23]
     end else begin
-      blkReg <= io_sw[0] & io_sw[1]; // @[EX1.scala 22:10]
+      blkReg <= io_sw[0] & io_sw[1]; // @[EX2.scala 22:10]
     end
   end
 // Register and memory initialization

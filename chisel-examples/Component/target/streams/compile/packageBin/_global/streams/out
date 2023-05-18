@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/compc_2.13-0.1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompC$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompC$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompA.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompA.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	One_2IN_MUX.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/One_2IN_MUX.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	One_4IN_MUX.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/One_4IN_MUX.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	One_4IN_MUX$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/One_4IN_MUX$$anon$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompC$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompC$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompB$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompB$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompC.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompC.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompC$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompA$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompA$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EX3$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/EX3$$anon$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	One_2IN_MUX$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/One_2IN_MUX$$anon$2.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	CompB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/shuhei/chisel_tutorial/chisel-examples/Component/target/scala-2.13/classes/CompB.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
